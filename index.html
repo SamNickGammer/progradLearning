@@ -5,13 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prograd Internship Projects</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 </head>
 
 <body>
-
+    <div class="screenLoad">
+        <div class="creatorName">
+            <h1>Om Prakash Bharati</h1>
+            <h2>Sam Nick</h2>
+            <img src="./assets/Image/js_800x800.jpg" alt=" JS" class="hoverEffect imgJS">
+            <img src="./assets/Image/mongoMern.png" alt=" JS" class="hoverEffect imgJS">
+            <img src="./assets/Image/expressJSMern.png" alt="JS" class="hoverEffect imgJS">
+            <img src="./assets/Image/reactjs.png" alt="JS" class="hoverEffect imgJS">
+            <img src="./assets/Image/nodeJS.png" alt="JS" class="hoverEffect imgJS">
+        </div>
+        <div class="challenge">
+            <!-- <div class="challengeName">
+                <h1 class="h1Txt-15">15</h1>
+                <div class="challengeTxtHeading">
+                    <h1>Days</h1>
+                    <h1>Project</h1>
+                </div>
+            </div> -->
+            <div class="challengeGold">
+                <h1>Internship</h1>
+            </div>
+        </div>
+        <div class="programmingName">
+            <h1>ProGrad</h1>
+        </div>
+        <div align="center" class="downClickButton">
+            <a href="#screenContaint">
+                <div class="pulse">
+                    <i class="fa fa-arrow-down fa-2x"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="screenContaint" id="screenContaint">
+        <div class="itemFlexContex">
+            <!-- ------------------------------------------ Project Day 15 -------------------------------------------------------------- -->
+            <a class="challengeItem hoverEffect" target="_blank"
+                href="https://samnickgammer.github.io/15Day15ProjectChallange_JS/Day15_JavaScript_NotesLocalStorage/index_NotesLocalStorage.html">
+                <div class="card">
+                    <div class="upperDisplay">
+                        <img class="containtImage" src="./assets/ProjectImage/Day15_Notes.png" alt="js">
+                        <div class="dayNumber">Day 15</div>
+                        <div class="dateProject">30<sup>th</sup> January 2022</div>
+                    </div>
+                    <div class="lowerDisplay">
+                        <h2 class="projectName">Notes</h2>
+                        <h4 class="projectDesc">Take All the Simple Notes💖</h4>
+                        <div class="langUsed">
+                            <div class="lanHTML">HTML</div>
+                            <div class="lanCSS">CSS</div>
+                            <div class="lanJS">JavaScript</div>
+                            <div class="lanAPI displayNone">API</div>
+                            <div class="servLOC displayNone">Location Service</div>
+                            <div class="cdnUsed fontAwsome">Font Awesome</div>
+                            <div class="cdnUsed localStorage">Local Storage</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- ------------ End Day 15 ------------------------------------- -->
+        </div>
+    </div>
     <script src="./script.js"></script>
+    <script type="text/javascript" src="./assets/script/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".hoverEffect"), {
+            max: 25,
+            speed: 400
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".hoverEffect"));
+    </script>
 </body>
 
 </html>
+
+<!-- 
+    Tags: 
+        1. lanHTML, lanCSS, lanJS, lanAPI, servLOC, cdnUsed, localStorage
+    Name: 
+        
+
+ -->
