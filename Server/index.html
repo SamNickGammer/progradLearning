@@ -25,6 +25,7 @@
 
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../assets/Style/itemModel.css">
 </head>
 
 <body>
@@ -52,28 +53,155 @@
             <p>Welcome to This Profile</p>
             <button class="logout btn btn-danger" id="logoutBtn">Logout</button>
         </div>
-        <div class="bodyDta">
-            <div class="blockDta resDta" id="addNewData">
+
+        <div class="bodyDta" id="bodyData">
+            <div class="blockDta addDta flexCenter" id="addNewData" onclick="openModelAddProject()">
+                <div class="plusSymb flexCenter"><i class="fa fa-plus"></i></div>
+            </div>
+            <!-- <div class="blockDta resDta"
+                style="background-image: url('');background-size: cover;background-position: center;background-repeat: no-repeat;">
                 <div class="displayHoverRes singleDeti">
-                    hello
+                    <h1>Cricket Score System</h1>
                 </div>
                 <div class="displayHoverRes deleteBtn flexCenter">
                     <i class="fas fa-trash-alt"></i>
                 </div>
-                <div class="displayHoverRes editBtn flexCenter">
+                <div class="displayHoverRes editBtn flexCenter" data-modal-target="#updateProject">
                     <i class="fas fa-edit"></i>
                 </div>
-            </div>
-            <div class="blockDta addDta flexCenter" id="addNewData">
-                <div class="plusSymb flexCenter"><i class="fa fa-plus"></i></div>
-            </div>
+            </div> -->
+            <!-- <div id="bodyData"></div> -->
+
+
         </div>
     </div>
     <!-- Edit Model  -->
     <!-- CreateNew Model -->
-    <div class="createNewFileModel">
-
+    <div class="boxModal addLaptop" id="addProjectModel">
+        <form autocomplete="off" id="addProject-form">
+            <h3>Add Projects</h3>
+            <div class="productAndImage">
+                <div class="productContainer">
+                    <input type="text" id="projectName" placeholder="Enter the Name of Project">
+                    <input type="text" id="projectDesc" placeholder="Enter Project Discription">
+                    <input type="text" id="projectLink" placeholder="Enter Project Link">
+                </div>
+                <div class="imageContainer">
+                    <label for="inputFile">
+                        <div class="imageInput">
+                            <img class="imgSrc" id="projectImage" src="../assets/Image/background_1_original.png"
+                                alt="">
+                            <input type="file" name="" id="inputFile" style="display: none;">
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="productDtails">
+                <input type="text" id="sprintDay" placeholder="Sprint Number">
+                <input type="date" id="dateProject" placeholder="Date Of Project">
+            </div>
+            <div class="productDtails checkboxDt">
+                <div class="checkboxCont">
+                    <input type="checkbox" id="htmlTag">
+                    <label for="htmlTag">HTML</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="cssTag">
+                    <label for="cssTag">CSS</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="jsTag">
+                    <label for="jsTag">JavaScript</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="apiTag">
+                    <label for="apiTag">API</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="reactTag">
+                    <label for="reactTag">React</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="mongoDBTag">
+                    <label for="mongoDBTag">MongoDB</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="expressTag">
+                    <label for="expressTag">Express</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="nodeTag">
+                    <label for="nodeTag">NodeJS</label>
+                </div>
+            </div>
+            <button type="submit" class="addItemButton">Add Projects</button>
+        </form>
     </div>
+    <!-- Update Project -->
+    <div class="boxModal addLaptop" id="updateProject">
+        <form autocomplete="off" id="alterProject-form">
+            <h3>Update Projects</h3>
+            <div class="productAndImage">
+                <div class="productContainer">
+                    <input type="text" id="alterprojectName" placeholder="Enter the Name of Project">
+                    <input type="text" id="alterprojectDesc" placeholder="Enter Project Discription">
+                    <input type="text" id="alterprojectLink" placeholder="Enter Project Link">
+                </div>
+                <div class="imageContainer">
+                    <label for="alterinputFile">
+                        <div class="imageInput">
+                            <img class="imgSrc" id="alterprojectImage" src="../assets/Image/background_1_original.png"
+                                alt="">
+                            <input type="file" name="" id="alterinputFile" style="display: none;">
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="productDtails">
+                <input type="text" id="altersprintDay" placeholder="Sprint Number">
+                <input type="date" id="alterdateProject" placeholder="Date Of Project">
+            </div>
+            <div class="productDtails checkboxDt">
+                <div class="checkboxCont">
+                    <input type="checkbox" id="alterhtmlTag">
+                    <label for="alterhtmlTag">HTML</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="altercssTag">
+                    <label for="altercssTag">CSS</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="alterjsTag">
+                    <label for="alterjsTag">JavaScript</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="alterapiTag">
+                    <label for="alterapiTag">API</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="alterreactTag">
+                    <label for="alterreactTag">React</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="altermongoDBTag">
+                    <label for="altermongoDBTag">MongoDB</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="alterexpressTag">
+                    <label for="alterexpressTag">Express</label>
+                </div>
+                <div class="checkboxCont">
+                    <input type="checkbox" id="alternodeTag">
+                    <label for="alternodeTag">NodeJS</label>
+                </div>
+            </div>
+            <button type="submit" class="addItemButton">Update Projects</button>
+        </form>
+    </div>
+    <div class="loader" style="display: none;">
+        <div></div>
+    </div>
+    <div id="overlay"></div>
 
 
     <!-- Vendor JS Files -->
@@ -89,8 +217,12 @@
     <script src="../assets/vendor/typed.js/typed.min.js"></script>
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script>
+
     <!-- FireBase Configration JS File -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
 
 
     <!-- Loading JS File with Firebase -->

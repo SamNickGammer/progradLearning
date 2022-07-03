@@ -209,13 +209,14 @@ a {
   width: 20em;
   height: 15em;
   border-radius: 20px 20px 0 0;
+  position: relative;
 }
 .challengeItem .card .upperDisplay .dayNumber {
-  position: relative;
-  bottom: 246px;
+  position: absolute;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.63);
   height: 50px;
-  width: 75px;
+  width: 80px;
   border-radius: 20px 0 10px 0;
   padding-left: 13px;
   padding-top: 13px;
@@ -223,9 +224,9 @@ a {
   color: var(--color_white);
 }
 .challengeItem .card .upperDisplay .dateProject {
-  position: relative;
-  bottom: 295px;
-  left: 145px;
+  position: absolute;
+  top: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.63);
   height: 50px;
   width: 175px;
@@ -235,13 +236,13 @@ a {
   font-weight: bold;
   color: var(--color_white);
 }
-.challengeItem .card .upperDisplay .containtImage {
+/* .challengeItem .card .upperDisplay .containtImage {
   overflow: hidden;
   height: 15em;
   width: 20em;
   position: relative;
   border-radius: 20px 20px 0 0;
-}
+} */
 .challengeItem .card .lowerDisplay {
   background-color: var(--color_white);
   width: 20em;
@@ -302,43 +303,69 @@ a {
   font-size: 13px;
   height: 20px;
   width: 33px;
-  background: rgba(29, 129, 160, 0.5);
+  background: rgba(50, 94, 8, 0.5);
 }
-.langUsed .servLOC {
+.langUsed .react {
   margin-right: 10px;
   text-align: center;
   margin-top: 5px;
   font-size: 13px;
   height: 20px;
-  width: 115px;
-  background: rgba(113, 216, 17, 0.5);
+  width: 65px;
+  background: rgba(0, 207, 249, 0.5);
 }
-.langUsed .cdnUsed.fontAwsome {
-  margin-right: 10px;
-  text-align: center;
-  margin-top: 5px;
-  font-size: 13px;
-  height: 20px;
-  width: 110px;
-  background: rgba(82, 141, 215, 0.5);
-}
-.langUsed .cdnUsed.bootstrap {
+.langUsed .mongo {
   margin-right: 10px;
   text-align: center;
   margin-top: 5px;
   font-size: 13px;
   height: 20px;
   width: 75px;
-  background: rgba(108, 16, 237, 0.5);
+  background: rgba(0, 88, 35, 0.5);
 }
-.langUsed .cdnUsed.localStorage {
+.langUsed .express {
   margin-right: 10px;
   text-align: center;
   margin-top: 5px;
   font-size: 13px;
   height: 20px;
-  width: 100px;
-  background: rgba(250, 234, 6, 0.5);
+  width: 75px;
+  background: rgba(130, 130, 130, 0.5);
+}
+.langUsed .node {
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 13px;
+  height: 20px;
+  width: 60px;
+  background: rgba(0, 197, 92, 0.5);
+}
+.noProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.adminPortalBtn {
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgb(23 13 25 / 20%);
+  transition: 0.4s;
+  color: rgb(23, 13, 25);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(23, 13, 25, 1);
+  justify-content: center;
+  align-items: center;
+}
+.adminPortalBtn:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(23, 13, 25, 0.6);
+  background-color: rgba(23, 13, 25, 1);
 }
 /*----------------------------------------------------------------*/
 /*--------------------------------------------------------*/

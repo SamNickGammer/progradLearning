@@ -194,10 +194,10 @@ body {
   cursor: pointer;
 }
 .resDta {
-  background-image: url('../assets/Image/background_2_original.png');
+  /* background-image: url('../assets/Image/background_2_original.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   transition: 300ms ease-in-out;
   position: relative;
 }
@@ -227,9 +227,18 @@ body {
 }
 .singleDeti {
   height: 15rem;
-  width: 9rem;
-  background-color: rgba(0, 0, 0, 0.425);
+  width: 11rem;
+  color: wheat;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 15%,
+    rgba(3, 2, 52, 0.8547794117647058) 32%,
+    rgba(4, 4, 67, 0.6615021008403361) 47%,
+    rgba(9, 9, 121, 0) 100%
+  );
   border-radius: 10px 0 0 10px;
+  padding: 10px;
 }
 .deleteBtn {
   height: 60px;
@@ -257,6 +266,10 @@ body {
 }
 .resDta:hover > .displayHoverRes {
   display: flex;
+}
+.checkboxDt {
+  padding-top: 25px;
+  justify-content: space-evenly;
 }
 @media (max-width: 768px) {
   .circle {
