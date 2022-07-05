@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: #9013fe;
+  color: white;
+  height: 100vh;
+}
+.teamLogo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: white;
+}
