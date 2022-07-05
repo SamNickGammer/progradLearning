@@ -1,6 +1,8 @@
 # progradLearning
 Prograd Internship 2022
 
+### Admin Login : https://samnickgammer.github.io/progradLearning/Server
+
 ## Tasks :: 
 | Day   |      Date      |  Task01 | Task01 Link | Task02 | Task02 Link |
 |-------|:-------------:|------:|:---------:|:---------:|:---------:|
