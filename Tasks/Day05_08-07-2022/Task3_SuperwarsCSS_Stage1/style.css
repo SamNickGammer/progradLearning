@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  height: calc(100vh - 16px);
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  margin-top: 50px;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.container {
+  display: grid;
+  height: 50px;
+  grid-template-columns: 170px 170px 300px 170px 170px;
+  grid-gap: 20px;
+  height: 100%;
+}
+.child {
+  font-size: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+.numbers {
+  margin-top: -2px;
+  font-size: 40px;
+}
+.gap {
+  grid-column-gap: 420px;
+}
+.mainCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
