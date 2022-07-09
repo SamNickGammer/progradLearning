@@ -9,7 +9,7 @@ Prograd Internship 2022
 | Day02 |    05/07/2022   |   FeedBack Form | https://samnickgammer.github.io/progradLearning/Tasks/Day02_05-07-2022/Task1_FeedBackForm/  | Portfolio | https://samnickgammer.github.io/progradLearning/Tasks/Day02_05-07-2022/Task2_Portfolio/ |
 |Day03| 06/07/2022 | Guess The Number | https://samnickgammer.github.io/progradLearning/Tasks/Day03_06-07-2022/Task1_GuessTheNumber/ | Roll Dice | https://samnickgammer.github.io/progradLearning/Tasks/Day03_06-07-2022/Task2_DiceRoll/ |
 | Day04 | 07/07/2022 | JavaScript TestCases | https://github.com/SamNickGammer/lab-javascript-functions-and-arrays  https://samnickgammer.github.io/progradLearning/Tasks/Day04_07-07-2022/Task1_SpecsRunner/ |
-| Day05 | 08/07/2022 | KeyBoard FlexBox | | Calculator Grid | | Superwars Stage 1 CSS | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task3_SuperwarsCSS_Stage1/ |
+| Day05 | 08/07/2022 | KeyBoard FlexBox | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task1_KeyboardFlexBox/ | Calculator Grid | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task2_CalculatorGrid/ | Superwars Stage 1 CSS | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task3_SuperwarsCSS_Stage1/ |
 
 
 
