@@ -11,7 +11,8 @@ Prograd Internship 2022
 | Day04 | 07/07/2022 | JavaScript TestCases | https://github.com/SamNickGammer/lab-javascript-functions-and-arrays  https://samnickgammer.github.io/progradLearning/Tasks/Day04_07-07-2022/Task1_SpecsRunner/ |
 | Day05 | 08/07/2022 | KeyBoard FlexBox | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task1_KeyboardFlexBox/ | Calculator Grid | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task2_CalculatorGrid/ | Superwars Stage 1 CSS | https://samnickgammer.github.io/progradLearning/Tasks/Day05_08-07-2022/Task3_SuperwarsCSS_Stage1/ |
 | Day06 | 09/07/2022 | Prograd Premier League | https://samnickgammer.github.io/progradLearning/Tasks/Day06_09-07-2022/Task1_SpecsRunner_FootballLeadge/src/ | | https://samnickgammer.github.io/progradLearning/Tasks/Day06_09-07-2022/Task1_SpecsRunner_FootballLeadge/| |
-
+| Day07 | 11/07/2022 | CricPro | https://samnickgammer.github.io/progradLearning/Tasks/Day07_11-07-2022/Task1_CrickPro/ |
+| Day08 | 12/07/2022 | Higher Order Function | https://samnickgammer.github.io/progradLearning/Tasks/Day08_12-07-2022/Task1_HigherOrderFun/ | 
 
 ## Projects::
 <!--
