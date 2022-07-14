@@ -14,6 +14,7 @@ Prograd Internship 2022
 | Day07 | 11/07/2022 | CricPro | https://samnickgammer.github.io/progradLearning/Tasks/Day07_11-07-2022/Task1_CrickPro/ |
 | Day08 | 12/07/2022 | Higher Order Function | https://samnickgammer.github.io/progradLearning/Tasks/Day08_12-07-2022/Task1_HigherOrderFun/ | 
 | Day09 | 13/07/2022 | Lab BrrrGrrr | https://samnickgammer.github.io/progradLearning/Tasks/Day09_13-07-2022/Task1_BrrrGrrr |
+| Day10 | 14/07/2022 | Lab Oops Blog | https://samnickgammer.github.io/progradLearning/Tasks/Day10_14-07-2022/Task1_JSBlog/ |
 
 
 ## Projects::
