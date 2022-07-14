@@ -13,6 +13,8 @@ Prograd Internship 2022
 | Day06 | 09/07/2022 | Prograd Premier League | https://samnickgammer.github.io/progradLearning/Tasks/Day06_09-07-2022/Task1_SpecsRunner_FootballLeadge/src/ | | https://samnickgammer.github.io/progradLearning/Tasks/Day06_09-07-2022/Task1_SpecsRunner_FootballLeadge/| |
 | Day07 | 11/07/2022 | CricPro | https://samnickgammer.github.io/progradLearning/Tasks/Day07_11-07-2022/Task1_CrickPro/ |
 | Day08 | 12/07/2022 | Higher Order Function | https://samnickgammer.github.io/progradLearning/Tasks/Day08_12-07-2022/Task1_HigherOrderFun/ | 
+| Day09 | 13/07/2022 | Lab BrrrGrrr | https://samnickgammer.github.io/progradLearning/Tasks/Day09_13-07-2022/Task1_BrrrGrrr |
+
 
 ## Projects::
 <!--
