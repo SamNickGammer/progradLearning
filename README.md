@@ -15,7 +15,10 @@ Prograd Internship 2022
 | Day08 | 12/07/2022 | Higher Order Function | https://samnickgammer.github.io/progradLearning/Tasks/Day08_12-07-2022/Task1_HigherOrderFun/ | 
 | Day09 | 13/07/2022 | Lab BrrrGrrr | https://samnickgammer.github.io/progradLearning/Tasks/Day09_13-07-2022/Task1_BrrrGrrr |
 | Day10 | 14/07/2022 | Lab Oops Blog | https://samnickgammer.github.io/progradLearning/Tasks/Day10_14-07-2022/Task1_JSBlog/ |
-| Day11 | 15/07/2022 | Lab RegEx | https://samnickgammer.github.io/progradLearning/Tasks/Day11_15-07-2022/Task1_RegexForm/
+| Day11 | 15/07/2022 | Lab RegEx | https://samnickgammer.github.io/progradLearning/Tasks/Day11_15-07-2022/Task1_RegexForm/ |
+| Day12 | 16/07/2022 | SmartWatch | https://samnickgammer.github.io/progradLearning/Tasks/Day12_16-07-2022/Task1_SmartWatchUI/ |
+| Day13 | 18/07/2022 | Expence Tracker | https://samnickgammer.github.io/progradLearning/Tasks/Day13_18-07-2022/Task1_ExpenseTracker/ |
+| Day14 | 20/07/2022 |  |
 
 
 ## Projects::
