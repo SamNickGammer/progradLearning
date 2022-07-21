@@ -19,7 +19,7 @@ Prograd Internship 2022
 | Day12 | 16/07/2022 | SmartWatch | https://samnickgammer.github.io/progradLearning/Tasks/Day12_16-07-2022/Task1_SmartWatchUI/ |
 | Day13 | 18/07/2022 | Expence Tracker | https://samnickgammer.github.io/progradLearning/Tasks/Day13_18-07-2022/Task1_ExpenseTracker/ |
 | Day14 | 20/07/2022 | Prograd Contacts | https://samnickgammer.github.io/progradLearning/Tasks/Day14_20-07-2022/Task1_ProgradContact/ |
-
+| Dya15 | 21/07/2022 | Weather Forecast | https://samnickgammer.github.io/progradLearning/Tasks/Day15_21-07-2022/Task1_WeatherForecast/ | 
 
 ## Projects::
 <!--
